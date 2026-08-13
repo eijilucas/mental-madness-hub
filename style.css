@@ -79,24 +79,18 @@ body{
 .status-pill{
   font-family:"MM Body",sans-serif;
   font-weight:600;
-  font-size:11px;
-  letter-spacing:.2em;
-  text-transform:uppercase;
+  font-size:12px;
+  letter-spacing:.1em;
+  font-variant-numeric:tabular-nums;
   color:var(--ink-dim);
   border:1px solid var(--line);
-  padding:13px 22px;
+  padding:12px 20px;
   display:flex;
   align-items:center;
   gap:9px;
   background:rgba(0,0,0,.3);
 }
-.status-pill::before{
-  content:"";
-  width:6px;height:6px;
-  border-radius:50%;
-  background:#c9c5b8;
-  box-shadow:0 0 8px rgba(255,255,255,.5);
-}
+.status-pill svg{width:15px;height:15px;flex:0 0 auto;}
 
 /* ---------- STACK ---------- */
 main{
